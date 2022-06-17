@@ -545,7 +545,7 @@ body {
 .modal-title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 1, 15;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
@@ -558,7 +558,7 @@ body {
 }
 .modal-label {
   font-size: 12px;
-  line-height: 1, 16;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: #757575;
   margin-bottom: 5px;
@@ -580,12 +580,27 @@ body {
 }
 .modal-text::placeholder {
   font-size: 12px;
-  line-height: 1, 16;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+.check-field {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.check-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.check-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
 .submit-btn {
-  margin-top: 30px;
   margin: 0 auto;
   width: 200px;
   height: 50px;
@@ -594,7 +609,7 @@ body {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   justify-content: center;
