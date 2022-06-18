@@ -703,7 +703,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .modal-check {
   position: absolute;
