@@ -562,6 +562,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  color: var(--second-accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -744,7 +745,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  border-bottom: 1px solid var(--accent-color);
+  text-decoration: underline;
   margin-left: 2px;
 }
 .submit-btn {
@@ -754,6 +755,7 @@ body {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
